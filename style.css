@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.p-header {
+  background-color: #2abbff;
+  padding: 10px 10px 10px 30px;
+}
+
+menu {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.links {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.text-center {
+  color: white;
+  font-size: 22px;
+}
+
+.search {
+  border: none;
+  padding: 0 65px;
+  margin-right: 40px;
+  border-radius: 2px;
+}
+
+.p-main {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 35px 100px 0 30px;
+  padding-bottom: 10px;
+  border-bottom: black solid 2px;
+}
+
+.forms {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  margin-top: 50px;
+  padding: 20px 200px;
+  border-top: #2abbff solid 8px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px grey;
+}
