@@ -50,8 +50,40 @@ menu {
 
 form {
   margin-top: 50px;
-  padding: 20px 200px;
   border-top: #2abbff solid 8px;
   border-radius: 5px;
   box-shadow: 3px 3px 5px grey;
+}
+
+form div {
+  margin: 0px 350px 15px 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.buttons input {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.buttons .button-add {
+  background-color: #a6a6a6;
+  margin: 0px 5px;
+  border-radius: 3px;
+  border: none;
+  padding: 0px 10px;
+  color: white;
+}
+
+.buttons .button-complete {
+  background-color: #2abbff;
+  border: none;
+  border-radius: 3px;
+  padding: 0px 20px;
+  margin-right: 30px;
+  color: white;
 }
