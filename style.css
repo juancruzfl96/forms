@@ -16,10 +16,20 @@ menu {
   padding: 20px;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+}
+
 .links {
   padding: 0 10px;
   text-decoration: none;
   color: white;
+}
+
+.links:hover {
+  cursor: pointer;
+  color: #a6a6a6;
 }
 
 .text-center {
@@ -29,9 +39,10 @@ menu {
 
 .search {
   border: none;
-  padding: 0 65px;
+  padding: 0px 140px 0px 10px;
   margin-right: 40px;
   border-radius: 2px;
+  outline: none;
 }
 
 .p-main {
@@ -49,14 +60,29 @@ menu {
 }
 
 form {
-  margin-top: 50px;
+  margin: 50px 30px 0px 20px;
   border-top: #2abbff solid 8px;
   border-radius: 5px;
   box-shadow: 3px 3px 5px grey;
 }
 
+form p {
+  margin: 3px 0px 20px 30px;
+}
+
 form div {
   margin: 0px 350px 15px 0px;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.input {
+  border: none;
+  width: 100%;
+  padding: 3px 10px;
+  background-color: transparent;
+  outline: none;
 }
 
 .buttons {
@@ -68,6 +94,11 @@ form div {
 .buttons input {
   padding: 10px;
   border-radius: 3px;
+  outline: none;
+}
+
+.grey {
+  background-color: #d2d2d2;
 }
 
 .buttons .button-add {
@@ -79,11 +110,41 @@ form div {
   color: white;
 }
 
+.buttons .button-add:hover {
+  cursor: pointer;
+  background-color: #878787;
+}
+
 .buttons .button-complete {
   background-color: #2abbff;
   border: none;
   border-radius: 3px;
   padding: 0px 20px;
-  margin-right: 30px;
+  margin-right: 40px;
   color: white;
+}
+
+.buttons .button-complete:hover {
+  cursor: pointer;
+  background-color: #009ce5;
+}
+
+.menu-responsive {
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  left: 10px;
+  top: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-whidth: 760px) {
+  .menu-responsive {
+    display: block;
+  }
 }

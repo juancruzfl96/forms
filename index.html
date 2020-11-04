@@ -9,14 +9,15 @@
 </head>
 <body>
     <header>
+        <button class="menu-responsive">Menu</button>
         <p class="p-header">https://github.com/juancruzfl96/react-todo-app</p>
         <menu>
-            <div class="main-links">
-                <a class="links" href="#">Todos</a>
-                <a class="links" href="#">Favorites</a>
-                <a class="links" href="#">Incomplete</a>
-                <a class="links" href="#">Create</a>
-            </div>
+            <ul class="main-links">
+               <li><a class="links" href="#">Todos</a></li>
+               <li><a class="links" href="#">Favorites</a></li>        
+               <li><a class="links" href="#">Incomplete</a></li>
+               <li><a class="links" href="#">Create</a></li>
+            </ul>
             <div class="text-center">TodoApp</div>
             <input class="search" type="text" placeholder="Search by title..">
         </menu>
@@ -26,17 +27,17 @@
 <div class="forms">
     <form>
         <p>Work 1</p>
-        <div>
+        <div class="grey">
             <label>Completed:</label>
-            <input type="text">
+            <input type="text" class="input">
          </div>
          <div>
             <label>Description:</label>
-            <input type="text">
+            <input type="text" class="input">
          </div>
-         <div>
+         <div class="grey">
             <label>Notes:</label>
-            <input type="text">
+            <input type="text" class="input">
          </div>
          <div class="buttons">
              <input type="text" placeholder="Note text here...">
@@ -46,17 +47,17 @@
     </form>
     <form>
         <p>Work 2</p>
-        <div>
+        <div class="grey">
            <label>Completed:</label>
-           <input type="text">
+           <input type="text" class="input">
         </div>
         <div>
            <label>Description:</label>
-           <input type="text">
+           <input type="text" class="input">
         </div>
-        <div>
+        <div class="grey">
            <label>Notes:</label>
-           <input type="text">
+           <input type="text" class="input">
         </div>
         <div class="buttons">
             <input type="text" placeholder="Note text here...">
