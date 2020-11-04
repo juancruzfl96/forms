@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 .p-header {
@@ -59,30 +60,32 @@ ul {
   flex-direction: column;
 }
 
+.a {
+  padding: 5px 25px;
+}
+
 form {
   margin: 50px 30px 0px 20px;
   border-top: #2abbff solid 8px;
   border-radius: 5px;
   box-shadow: 3px 3px 5px grey;
-}
-
-form p {
-  margin: 3px 0px 20px 30px;
+  width: 70%;
 }
 
 form div {
-  margin: 0px 350px 15px 0px;
+  /* margin: 0px 350px 15px 0px; */
   display: flex;
   text-align: center;
+  align-items: center;
   width: 100%;
 }
 
 .input {
   border: none;
   width: 100%;
-  padding: 3px 10px;
   background-color: transparent;
   outline: none;
+  margin-left: 10px;
 }
 
 .buttons {
@@ -92,9 +95,10 @@ form div {
 }
 
 .buttons input {
-  padding: 10px;
+  padding: 12px;
   border-radius: 3px;
   outline: none;
+  border-color: #d2d2d2;
 }
 
 .grey {
@@ -103,10 +107,10 @@ form div {
 
 .buttons .button-add {
   background-color: #a6a6a6;
-  margin: 0px 5px;
+  margin: 5px;
   border-radius: 3px;
   border: none;
-  padding: 0px 10px;
+  padding: 15px;
   color: white;
 }
 
@@ -119,7 +123,7 @@ form div {
   background-color: #2abbff;
   border: none;
   border-radius: 3px;
-  padding: 0px 20px;
+  padding: 15px;
   margin-right: 40px;
   color: white;
 }
@@ -129,21 +133,21 @@ form div {
   background-color: #009ce5;
 }
 
-.menu-responsive {
-  width: 70px;
-  height: 40px;
-  border-radius: 5px;
-  border-style: none;
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  left: 10px;
-  top: 10px;
-  cursor: pointer;
+#btn-menu {
   display: none;
 }
 
-@media (max-whidth: 760px) {
+header label {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+header label:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
   .menu-responsive {
     display: block;
   }

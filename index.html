@@ -8,9 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <button class="menu-responsive">Menu</button>
+    <header>  
         <p class="p-header">https://github.com/juancruzfl96/react-todo-app</p>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="menu.png"></label>
         <menu>
             <ul class="main-links">
                <li><a class="links" href="#">Todos</a></li>
@@ -26,16 +27,16 @@
         <p class="p-main">Todos list - 200</p>
 <div class="forms">
     <form>
-        <p>Work 1</p>
-        <div class="grey">
-            <label>Completed:</label>
-            <input type="text" class="input">
+        <p class="a">Work 1</p>
+        <div class="grey a">
+            <label for="completed">Completed:</label>
+            <input name="completed" type="text" class="input">
          </div>
-         <div>
+         <div class="a">
             <label>Description:</label>
             <input type="text" class="input">
          </div>
-         <div class="grey">
+         <div class="grey a">
             <label>Notes:</label>
             <input type="text" class="input">
          </div>
@@ -46,16 +47,16 @@
          </div>
     </form>
     <form>
-        <p>Work 2</p>
-        <div class="grey">
+        <p class="a">Work 2</p>
+        <div class="grey a">
            <label>Completed:</label>
            <input type="text" class="input">
         </div>
-        <div>
+        <div class="a">
            <label>Description:</label>
            <input type="text" class="input">
         </div>
-        <div class="grey">
+        <div class="grey a">
            <label>Notes:</label>
            <input type="text" class="input">
         </div>
